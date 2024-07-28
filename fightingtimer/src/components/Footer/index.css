@@ -1,0 +1,4 @@
+#footer {
+    grid-area: 3/1/4/4;
+    color: var(--second-color);
+  }

@@ -1,0 +1,44 @@
+@font-face {
+  font-family:"supercharge";
+  src: url(../assets/fonts/supercharge.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:"superchargehalf";
+  src: url(../assets/fonts/superchargehalf.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:"superchargegrad";
+  src: url(../assets/fonts/superchargegrad.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:"superchargestraight3d";
+  src: url(../assets/fonts/superchargestraight3d.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  justify-items: center;
+
+  background-color: var(--main-color);
+  height: 896px;
+}
+  
+  .TimerPage {
+    grid-area: 2 / 1 / 3 / 4;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 80% 10%;
+  }

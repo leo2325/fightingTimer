@@ -1,0 +1,33 @@
+form {
+    grid-area: 1 / 2 / 2 / 3;
+}
+    .exercicesSettings_container {
+        display: grid;
+        grid-template-rows: 60% 15% 25%;
+        grid-template-columns: 4% 92% 4%;
+    }
+        .fightSettings_container {
+            grid-area: 1 / 2 / 2 / 3;
+        }
+            .fightSettings_container .formInput {
+                display: grid;
+                grid-template-columns: 15% 20% 50% 15%;
+            }
+                .chevronLeftIcon_container {
+                    grid-area: 1 / 1 / 2 / 2;
+                }
+                .formInput input{
+                    grid-area: 1 / 2 / 2 / 3;
+                }
+                .formInput label {
+                    grid-area: 1 / 3 / 2 / 4;
+                }
+                .chevronRightIcon_container { 
+                    grid-area: 1 / 4 / 2 / 5;
+                }
+        .optionsForm_container {
+            grid-area: 2 / 1 / 3 / 4;
+        }
+        .submitButton_container {
+            grid-area: 3 / 1 / 4 / 4;
+        }
